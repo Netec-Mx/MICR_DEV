@@ -1,0 +1,7 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><element><id>UMLActor</id><coordinates><x>77</x><y>182</y><w>70</w><h>98</h></coordinates><panel_attributes>Student
+fontsize=20
+fg=#179142
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>238</x><y>126</y><w>364</w><h>161</h></coordinates><panel_attributes>Google Trends
+fontsize=25
+fg=#179142
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>112</x><y>203</y><w>140</w><h>21</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>180;10;10;10</additional_attributes></element></diagram>

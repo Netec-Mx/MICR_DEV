@@ -1,0 +1,13 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLPackage</id><coordinates><x>0</x><y>0</y><w>1184</w><h>792</h></coordinates><panel_attributes>*Docker server*
+fontsize=30
+--
+bg=white
+fontsize=25
+fg=#2c6be8
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>128</x><y>144</y><w>872</w><h>480</h></coordinates><panel_attributes>*nginx container*
+Running
+
+fontsize=29
+lt=..
+fg=#8d2ce8
+port export 80</panel_attributes><additional_attributes></additional_attributes></element></diagram>
