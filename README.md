@@ -1,3 +1,5 @@
+# Microservicios Developer
+
 **Plataforma de Laboratorios**
 Bienvenido a la **Plataforma de Laboratorios** del curso **Microservicios Developer**. Aquí podrás explorar diferentes tecnologías a través de prácticas guiadas. ¡Desarrolla tus habilidades y lleva tus conocimientos al siguiente nivel!
 
@@ -28,8 +30,6 @@ Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia pr
 06. ### [Despliegue de Arquitectura completa](./Capitulo6/README.md)
     - **Descripción**: Se espera que el alumno pueda desplegar sus microservicios en contenedores
     - ⏱️**Duración estimada**: 60 min
-
-
 
 ---
 ## 📬 **Contacto y Más Información**
