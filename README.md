@@ -1,18 +1,3 @@
-<div>
-<table>
-  <tbody>
-      <tr>
-    <td> 
-        <img src="./images/neteclogo.png" width="250px">
-    <td>
-    <td>
-      <h1>Microservicios Developer<h1>
-    </td>
-  </tr>
-  </tbody>
-<table>
-</div>
-
 **Plataforma de Laboratorios**
 Bienvenido a la **Plataforma de Laboratorios** del curso **Microservicios Developer**. Aquí podrás explorar diferentes tecnologías a través de prácticas guiadas. ¡Desarrolla tus habilidades y lleva tus conocimientos al siguiente nivel!
 
