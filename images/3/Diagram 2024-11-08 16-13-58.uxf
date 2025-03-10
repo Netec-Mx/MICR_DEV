@@ -1,0 +1,70 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLPackage</id><coordinates><x>272</x><y>328</y><w>160</w><h>104</h></coordinates><panel_attributes>*principal package*
+--
+bg=orange
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>0</x><y>520</y><w>208</w><h>112</h></coordinates><panel_attributes>*MySQL Database Running*
+fontsize=15
+bg=#4287f5
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>296</x><y>360</y><w>112</w><h>32</h></coordinates><panel_attributes>main class
+bg=white</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>272</x><y>472</y><w>160</w><h>200</h></coordinates><panel_attributes>*resources*
+--
+bg=orange
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>296</x><y>520</y><w>112</w><h>120</h></coordinates><panel_attributes>*application.properties*
+--
+name microservice
+hibernate config
+datasource config
+
+
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>560</y><w>112</w><h>32</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>496</x><y>328</y><w>160</w><h>112</h></coordinates><panel_attributes>*entities*
+--
+
+bg=orange
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>520</x><y>360</y><w>80</w><h>72</h></coordinates><panel_attributes>Client
+--
+id
+name
+email
+address</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>496</x><y>520</y><w>160</w><h>112</h></coordinates><panel_attributes>*dao*
+--
+
+bg=orange
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>528</x><y>552</y><w>80</w><h>72</h></coordinates><panel_attributes>*IClientDAO*
+--
+insert
+update
+findById
+delete
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>576</x><y>424</y><w>24</w><h>144</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;10;160</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>584</y><w>144</w><h>24</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;.</panel_attributes><additional_attributes>160;10;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>712</x><y>288</y><w>160</w><h>192</h></coordinates><panel_attributes>*services*
+--
+
+bg=orange
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>704</x><y>528</y><w>160</w><h>112</h></coordinates><panel_attributes>*exceptions*
+--
+
+bg=orange
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>576</y><w>128</w><h>40</h></coordinates><panel_attributes>ClientNotFoundException
+--
+constructor(message)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>736</x><y>312</y><w>80</w><h>72</h></coordinates><panel_attributes>*IService*
+--
+insert
+update
+findById
+delete
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>736</x><y>432</y><w>80</w><h>40</h></coordinates><panel_attributes>*ServiceImpl*
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>768</x><y>376</y><w>24</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>792</x><y>464</y><w>24</w><h>128</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>608</x><y>448</y><w>144</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;.</panel_attributes><additional_attributes>160;10;100;10;100;180;10;180</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>920</x><y>360</y><w>160</w><h>216</h></coordinates><panel_attributes>*Controller*
+--
+
+bg=orange
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>944</x><y>416</y><w>80</w><h>96</h></coordinates><panel_attributes>*MicroController*
+--
+GET
+POST
+PUT
+DELETE
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>808</x><y>440</y><w>152</w><h>48</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;.</panel_attributes><additional_attributes>170;40;100;40;100;10;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1120</x><y>408</y><w>208</w><h>112</h></coordinates><panel_attributes>*POSTMAN*
+fontsize=15
+bg=yellow
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1016</x><y>448</y><w>120</w><h>32</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element></diagram>

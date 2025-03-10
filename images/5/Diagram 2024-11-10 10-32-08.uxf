@@ -1,0 +1,105 @@
+<diagram program="umletino" version="15.1"><zoom_level>8</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>504</y><w>328</w><h>136</h></coordinates><panel_attributes>*Eureka Discovery Server*
+--
+fontsize=24
+bg=#34d8eb
+microservice_name: ip:port, ip:port
+microservice_name: ip:port, ip:port</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>168</x><y>632</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>120</x><y>672</y><w>104</w><h>64</h></coordinates><panel_attributes>*load balancer*
+lt=..
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>344</x><y>672</y><w>104</w><h>64</h></coordinates><panel_attributes>*load balancer*
+lt=..
+fontsize=16</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>384</x><y>632</y><w>24</w><h>56</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;50</additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>768</y><w>160</w><h>104</h></coordinates><panel_attributes>*MicroserviceClient*
+--
+fontsize=20
+fg=#a134eb</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>96</x><y>800</y><w>160</w><h>104</h></coordinates><panel_attributes>*MicroserviceClient*
+--
+fontsize=20
+fg=#a134eb</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>368</x><y>760</y><w>160</w><h>104</h></coordinates><panel_attributes>*MicroserviceOrder*
+--
+fontsize=20
+fg=#a134eb</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>432</x><y>800</y><w>168</w><h>104</h></coordinates><panel_attributes>*MicroserviceOrder*
+--
+fontsize=20
+fg=#a134eb</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>88</x><y>728</y><w>96</w><h>56</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;10;100;30;10;30;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>168</x><y>728</y><w>56</w><h>88</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;40;50;40;50;90</additional_attributes></element><element><id>Relation</id><coordinates><x>376</x><y>728</y><w>88</w><h>48</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;30;90;30;90;40</additional_attributes></element><element><id>Relation</id><coordinates><x>392</x><y>728</y><w>160</w><h>88</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;20;180;20;180;90</additional_attributes></element><element><id>Relation</id><coordinates><x>248</x><y>784</y><w>136</w><h>32</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;-
+*openfeing*
+fontsize=15</panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>288</y><w>328</w><h>136</h></coordinates><panel_attributes>*Spring Gateway*
+--
+fontsize=24
+bg=#248a19
+microservice_name: ip:port, ip:port
+microservice_name: ip:port, ip:port</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>1000</x><y>432</y><w>168</w><h>136</h></coordinates><panel_attributes>*Git Repository*
+--
+client config
+order config
+fontsize=19
+fg=#8a5919
+lw=3</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>272</x><y>416</y><w>24</w><h>104</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>656</x><y>440</y><w>200</w><h>136</h></coordinates><panel_attributes>*Microservice Config*
+--
+fontsize=24
+bg=#19628a
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>848</x><y>480</y><w>168</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+lw=3
+fontsize=16
+get configuration
+</panel_attributes><additional_attributes>190;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>432</x><y>360</y><w>240</w><h>152</h></coordinates><panel_attributes>lt=&lt;-
+lw=3
+fontsize=16
+send configuration
+</panel_attributes><additional_attributes>10;10;120;10;120;170;280;170</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>504</y><w>152</w><h>184</h></coordinates><panel_attributes>lt=-
+lw=3
+fontsize=16
+send configuration
+
+
+</panel_attributes><additional_attributes>10;210;10;20;170;20</additional_attributes></element><element><id>Relation</id><coordinates><x>264</x><y>568</y><w>496</w><h>392</h></coordinates><panel_attributes>lt=-
+lw=3
+fontsize=16
+send configuration
+</panel_attributes><additional_attributes>10;460;600;460;600;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>880</y><w>48</w><h>72</h></coordinates><panel_attributes>lt=&lt;-
+lw=3
+fontsize=15
+
+</panel_attributes><additional_attributes>10;10;40;10;40;70</additional_attributes></element><element><id>Relation</id><coordinates><x>56</x><y>864</y><w>232</w><h>96</h></coordinates><panel_attributes>lt=&lt;-
+lw=3
+fontsize=15
+
+</panel_attributes><additional_attributes>10;10;10;90;270;90</additional_attributes></element><element><id>Relation</id><coordinates><x>488</x><y>664</y><w>56</w><h>112</h></coordinates><panel_attributes>lt=&lt;-
+lw=3
+fontsize=15
+
+</panel_attributes><additional_attributes>10;120;10;10;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>664</y><w>64</w><h>152</h></coordinates><panel_attributes>lt=&lt;-
+lw=3
+fontsize=15
+
+</panel_attributes><additional_attributes>60;170;60;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>648</x><y>192</y><w>216</w><h>120</h></coordinates><panel_attributes>*Identity Provider *
+Keycloak
+fontsize=20
+bg=#8a1979</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>248</x><y>16</y><w>64</w><h>96</h></coordinates><panel_attributes>*Client*
+lw=3
+fontsize=19
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>40</y><w>496</w><h>168</h></coordinates><panel_attributes>lt=&lt;-
+fontsize=19
+*request access token*
+fg=red</panel_attributes><additional_attributes>600;190;600;30;10;30</additional_attributes></element><element><id>Relation</id><coordinates><x>288</x><y>72</y><w>456</w><h>136</h></coordinates><panel_attributes>lt=-&gt;
+fontsize=19
+*send access token*
+cbase=d
+fg=red</panel_attributes><additional_attributes>550;150;550;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>88</y><w>120</w><h>216</h></coordinates><panel_attributes>lt=&lt;-
+fontsize=19
+*Send request*
+cbase=l
+fg=red</panel_attributes><additional_attributes>130;250;130;10</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>248</y><w>224</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+fontsize=19
+*validate jwt*
+fg=red</panel_attributes><additional_attributes>260;10;110;10;110;80;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>440</x><y>280</y><w>224</w><h>80</h></coordinates><panel_attributes>lt=-&gt;
+fontsize=19
+*ok/not ok jwt*
+fg=red</panel_attributes><additional_attributes>260;10;120;10;120;80;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>296</x><y>88</y><w>120</w><h>216</h></coordinates><panel_attributes>lt=&lt;-
+fontsize=19
+*Send request*
+cbase=r
+fg=red</panel_attributes><additional_attributes>10;10;10;250</additional_attributes></element><element><id>UMLClass</id><coordinates><x>456</x><y>152</y><w>176</w><h>24</h></coordinates><panel_attributes>*Authentication flow*
+fontsize=19
+fg=#8a1979</panel_attributes><additional_attributes></additional_attributes></element></diagram>
