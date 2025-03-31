@@ -3,7 +3,7 @@
 En este laboratorio se busca que el alumno pueda comparar entre los microservicios y sistemas monolíticos. 
 
 
-## Objetivos
+## Objetivos de la práctica
 - Investigar el uso de los microservicios en el mundo tecnológico.
 - Compararlo con los sistemas monolíticos.
 
