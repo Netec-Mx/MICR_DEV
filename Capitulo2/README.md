@@ -2,7 +2,9 @@
 En este laboratorio se busca crear un contenedor con un servidor nginx para probar la infraestructura que usaremos en contenedores. 
 
 
-## Objetivos
+## Objetivos de la práctica
+Al terminar la siguiente práctica serás capaz de:
+
 - Comprender la configuración de Docker.
 - Usar comandos para crear un contenedor con nginx.
 - Explorar las herramientas. 
