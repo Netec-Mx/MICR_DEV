@@ -9,6 +9,9 @@ Crear un microservicio **order** que nos permita administrar las ordenes de pago
 - Usar el servicio de descubrimiento **eureka** para registrar las instancias de los microservicios. 
 - Probar los microservicios.
 
+## Duración aproximada:
+-  90 minutos.
+
 ---
 
 <div style="width: 400px;">
@@ -580,7 +583,7 @@ public class MicroserviceEurekaApplication {
 
 
 
-## Resultado Esperado 
+## Resultado esperado 
 Cuando finalize el laboratorio se espera que el alumno pueda observar sus microservicios client y order registrados en eureka. 
 
 ![resultado](../images/4/2.png)
