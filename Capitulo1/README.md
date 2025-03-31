@@ -1,4 +1,4 @@
-# Práctica 1. Comparación microservicios vs. monolítico
+# Práctica 1. Comparación: Microservicios vs. Monolítico
 
 En este laboratorio se busca que el alumno pueda comparar entre los microservicios y sistemas monolíticos. 
 
