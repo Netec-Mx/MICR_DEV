@@ -26,7 +26,7 @@ Al terminar la siguiente práctica serás capaz de:
                    <a href="../README.md">Lista Laboratorios</a>
                 </td>
 <td style="text-align: center;">
-                    <a href="../Capitulo6/"><img src="../images/siguiente.png" width="40px"></a>
+                    <a href="https://netec-mx.github.io/MICR_DEV/">Lista Laboratorios</a>
                     <br>siguiente
                 </td>
             </tr>
