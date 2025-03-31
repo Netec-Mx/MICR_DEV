@@ -8,8 +8,8 @@ Bienvenido a la **Plataforma de Laboratorios** del curso **Microservicios Develo
 Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia práctica. Haz clic en los enlaces para comenzar.
 
 ### [Práctica 1. Comparación microservicios vs. monólitico](./Capitulo1/README.md)
-    - **Descripción**: Usando Google Trends visualizar el interés que tiene la gente en usar Microservicios
-    - ⏱️ **Duración estimada**: 30 min
+**Descripción**: Usando Google Trends visualizar el interés que tiene la gente en usar Microservicios
+⏱️ **Duración estimada**: 30 min
 
 ### [Práctica 2. Contenedor nginx](./Capitulo2/README.md)
     - **Descripción**: Usando la tecnología de docker levantaremos un contenedor de nginx para probar la infraestructura que usaremos en microservicios
