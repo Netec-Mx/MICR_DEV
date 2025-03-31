@@ -67,7 +67,7 @@ Se espera que el alumno realice una investigación usando Google Trends.
 ![paises](../images/1/4.png)
 
 
-7. Comparar con un monolítico. 
+7. Hacer la comparación con un monolítico. 
 
 ![monolito](../images/1/5.png)
 
