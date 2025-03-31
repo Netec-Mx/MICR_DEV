@@ -1,12 +1,12 @@
-# 5. Arquitectura completa microservicios
+# Práctica 5. Arquitectura completa microservicios
 Se requiere que el alumno implemente todos los servicios vistos en el tema 5. 
 Spring Cloud Gateway, Spring Config, Spring Security, Resilience4j
 
 ## Objetivos
-- Implementar Resilience4j
-- Implementar Spring config
-- Implementar Spring Cloud Gateway
-- Implementar Spring Security
+- Implementar Resilience4j.
+- Implementar Spring config.
+- Implementar Spring Cloud Gateway.
+- Implementar Spring Security.
 
 ---
 <div style="width: 400px;">
@@ -32,14 +32,13 @@ Spring Cloud Gateway, Spring Config, Spring Security, Resilience4j
 > **IMPORTANTE:** Para este laboratorio es importante realizar el laboratorio 4 y tener tus microservicios registrados en eureka. 
 
 
-
 ## Diagrama
 
 ![diagrama](../images/5/diagrama.png)
 
 
 ## Instrucciones
-Este laboratorio esta separado las siguientes  secciones.
+Este laboratorio esta dividido en las siguientes secciones.
 
 - **[Resilience4j configuración](#resilience4j-configuración-return)**
 - **[Spring Gateway](#spring-gateway-return)**
@@ -149,7 +148,7 @@ public class ServiceImpl implements IService{
 
 ```
 
-4. En el paquete principal agregar una nueva clase que llamaremos **ConfigResilienceCustom** y añadir el siguiente código:
+4. En el paquete principal, agregar una nueva clase a la que llamaremos **ConfigResilienceCustom**. Después, añadir el siguiente código:
 
 ```java
 package com.netec.app;
@@ -197,7 +196,7 @@ public class ConfigResilienceCustom {
 
 ### Spring Gateway [return](#instrucciones)
 
-1. Crear un nuevo Spring starter Project
+1. Crear un nuevo Spring starter Project.
 
 2. Añadir la siguiente configuración: 
 
@@ -243,13 +242,13 @@ logging.level.org.springframework.cloud.gateway=DEBUG
 logging.level.reactor.netty.http.client=DEBUG
 ```
 
-5. Guardar todo
+5. Guardar todo.
 
 
 ### Security [return](#instrucciones)
-1. Para este laboratorio se necesita que **docker este instalado e iniciado**
+1. Para este laboratorio se necesita que **Docker este instalado e iniciado.**
 
-2. Abrir una terminar y ejecutar el siguiente comando:
+2. Abrir una terminal y ejecutar el siguiente comando:
 
 ```bash
 docker run -p 80:8080 --name idp -e KEYCLOAK_PASSWORD=pass -e KEYCLOAK_USER=admin -e PROXY_ADDRESS_FORWARDING=true -d edgardovefe/clase_seguridad:keycloak
@@ -258,14 +257,14 @@ docker run -p 80:8080 --name idp -e KEYCLOAK_PASSWORD=pass -e KEYCLOAK_USER=admi
 > **NOTA**: El comando anterior inicia un contenedor con **Keycloak** y lo expone por el 
 puerto 80. 
 
-> **IMPORTANTE**: El usuario configurado es **admin** y el password es **pass**
+> **IMPORTANTE**: El usuario configurado es **admin** y el password es **pass**.
 
-3. Abrir un nuevo explorador web y escribir la siguiente ruta: http://localhost:80, abrirá la siguiente pantalla.:
+3. Abrir un nuevo explorador web y escribir la siguiente ruta: http://localhost:80, abrirá la siguiente pantalla:
 
 
 <img src="../images/5/1.png" width="500px">
 
-4. Seleccionar **Administration Console**
+4. Seleccionar **Administration Console.**
 
 <img src="../images/5/2.png" width="500px">
 
@@ -276,17 +275,17 @@ puerto 80.
 <img src="../images/5/3.png" width="500px">
 
 
-6. Crear un Realm (Conocido cómo dominio de usuarios)
+6. Crear un Realm (Conocido cómo dominio de usuarios).
 
 <img src="../images/5/4.png" width="500px">
 
 
-7. Nombre del Realm **netec** (puede cambiar el nombre pero **recuerdelo**). 
+7. Poner como nombre del Realm **netec** (puede cambiar el nombre, pero es importante que lo **recuerde**). 
 
 <img src="../images/5/5.png" width="500px">
 
 
-8. Crear un cliente 
+8. Crear un cliente.
 
 <img src="../images/5/6.png" width="500px">
 
@@ -296,7 +295,7 @@ puerto 80.
 
 <img src="../images/5/7.png" width="500px">
 
-10. Configuramos el url del MicroservicieClient en el cliente **myclient**->**settings**:
+10. Configuramos el URL del **MicroservicieClient** en el cliente **myclient**->**settings**:
 
 - **Valid Redirect URIs**: http://localhost:8084/*
 
@@ -306,7 +305,7 @@ puerto 80.
 
 <img src="../images/5/9.png" width="500px">
 
-12. Crear usuario 
+12. Crear usuario. 
 
 <img src="../images/5/10.png" width="500px">
 
@@ -316,7 +315,7 @@ puerto 80.
 
 <img src="../images/5/11.png" width="500px">
 
-14. Agregar credenciales al usuario, añadir **123456**
+14. Agregar credenciales al usuario, añadir **123456**.
 
 <img src="../images/5/12.png" width="500px">
 
@@ -325,9 +324,9 @@ puerto 80.
 <img src="../images/5/13.png" width="500px">
 
 **Explicación de cada endpoint**
-- **issuer**: endpoint necesario para la conexión de keycloak con spring boot
+- **issuer**: Endpoint necesario para la conexión de keycloak con spring boot.
 
-- **jwks_uri**: Contiene las llaves publicas para verificar el JWT, también es necesario para spring boot
+- **jwks_uri**: Contiene las llaves publicas para verificar el JWT, también es necesario para spring boot.
 
 - **token_endpoint**: Es usado para obtener los access tokens de los usuarios, este lo usa el cliente. 
 
@@ -339,7 +338,7 @@ puerto 80.
     <artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
 </dependency>
 ```
-17. En el paquete principal del gateway crear 2 clases **SecurityConfig** y **LogUsernameFilter**
+17. En el paquete principal del gateway crear 2 clases **SecurityConfig** y **LogUsernameFilter.**
 
 **Securityconfig**
 ```java
@@ -413,7 +412,7 @@ public class LogUsernameFilter implements WebFilter {
 }
 ```
 
-18. En el archivo **application.properties** añadir la configuración del identity provider
+18. En el archivo **application.properties** añadir la configuración del identity provider.
 
 ```properties
 server.port=8888
@@ -444,12 +443,12 @@ logging.level.org.springframework.cloud.gateway=DEBUG
 logging.level.reactor.netty.http.client=DEBUG
 ```
 
-19. Guardar todo
+19. Guardar todo.
 
 
 ### Spring Config [return](#instrucciones)
 
-1. Crear una nueva carpeta en el escritorio que llamaremos **repositorio**
+1. Crear una nueva carpeta en el escritorio que llamaremos **repositorio.**
 
 2. Abrir una terminal en la carpeta repositorio y ejecutar el comando:
 
@@ -457,13 +456,13 @@ logging.level.reactor.netty.http.client=DEBUG
 git init
 ```
 
-3. Añadir 3 archivo con la siguiente sintaxis **namemicroservice.properties**
+3. Añadir 3 archivo con la siguiente sintaxis **namemicroservice.properties.**
 
 ![files](../images/5/14.png)
 
 4. En cada archivo añadir el contenido de los archivos **application.properties** de cada microservicio con excepción del nombre. 
 
-5. Ejecutar los comandos para confirmar los cambios en el repositorio
+5. Ejecutar los comandos para confirmar los cambios en el repositorio.
 
 ```bash
 git add .
@@ -495,17 +494,17 @@ server.port=7777
 spring.cloud.config.server.git.uri=file:///C:/Users/egar2/Desktop/material/repositorio
 ```
 
-9. En la clase principal añade la siguiente anotación:
+9. En la clase principal añadir la siguiente anotación:
 
 ```java
 @EnableConfigServer
 ```
 
-10. Guardar todo
+10. Guardar todo.
 
-11. Configuración **MicroserviceClient**, **Microservice Gateway** y **MicroserviceOrder**
+11. Configuración **MicroserviceClient**, **Microservice Gateway** y **MicroserviceOrder.**
 
-12. Añadir la siguiente dependencia a los 3 microservicios
+12. Añadir la siguiente dependencia a los 3 microservicios.
 
 ```xml
 <dependency>
@@ -529,14 +528,15 @@ spring.config.import=optional:configserver:http://${IP_CONFIGSERVER:localhost}:7
 > **IMPORTANTE:** Se tiene que realizar en los 3 microservicios. 
 
 
-14. Guardar todo
+14. Guardar todo.
 
 
-## Resultado Esperado [Instrucciones](#instrucciones)
+## Resultado esperado [Instrucciones](#instrucciones)
 
 Si se ha llegado hasta aquí se deben de seguir los siguientes pasos para probar nuestra arquitectura:
 
-1. Iniciar los microservicios en este orden
+1. Iniciar los microservicios en este orden:
+   
 - **Contenedor idp**
 - **MicroserviceConfig**
 - **MicroserviceEureka**
@@ -557,11 +557,11 @@ curl --request POST \
   --data password=123456
 ```
 
-3. Copiar el **access token**
+3. Copiar el **access token.**
 
 ![at](../images/5/15.png)
 
-4. Probar el acceso a nuestro microservicios desde el gateway, en cada request se enviar el **access token**
+4. Probar el acceso a nuestro microservicios desde el gateway, en cada request se enviará el **access token.**
 
 - **POST Order**
 ```bash
