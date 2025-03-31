@@ -7,6 +7,9 @@ En este laboratorio se busca crear un contenedor con un servidor nginx para prob
 - Usar comandos para crear un contenedor con nginx.
 - Explorar las herramientas. 
 
+## Duración aproximada:
+-  30 minutos.
+
 ---
 <div style="width: 400px;">
         <table width="50%">
