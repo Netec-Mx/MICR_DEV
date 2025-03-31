@@ -7,7 +7,7 @@ Bienvenido a la **Plataforma de Laboratorios** del curso **Microservicios Develo
 # Lista de Laboratorios
 Cada uno de estos laboratorios está diseñado para ofrecerte una experiencia práctica. Haz clic en los enlaces para comenzar.
 
-### [Práctica 1. Comparación microservicios vs. monólitico](./Capitulo1/README.md)
+### [Práctica 1. Comparación: Microservicios vs. Monólitico](./Capitulo1/README.md)
 - **Descripción**: Usando Google Trends visualizar el interés que tiene la gente en usar microservicios.
 - ⏱️ **Duración estimada**: 30 min.
 
