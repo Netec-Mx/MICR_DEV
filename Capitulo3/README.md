@@ -6,6 +6,8 @@ Desarrollar un microservicio que permita la administración de clientes.
 - Definir buenas prácticas al desarrollar el microservicio.
 - Probar el microservicio en Insomnia, Postman ó curl.
 
+## Duración aproximada:
+-  60 minutos.
 
 ---
 
