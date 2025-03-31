@@ -1,10 +1,13 @@
-# 6.Despliegue de Arquitectura completa
+# Práctica 6.Despliegue de arquitectura completa
 Se requiere que el alumno despliegue en contenedores su sarquitectura de microservicios.  
 
 ## Objetivos
-- Crear las imagenes de sus microservicios
-- Crear contenedores para validar el funcionamiento
-- Crear un archivo de orquestación para iniciar toda su arquitectura
+- Crear las imagenes de sus microservicios.
+- Crear contenedores para validar el funcionamiento.
+- Crear un archivo de orquestación para iniciar toda su arquitectura.
+
+## Duración aproximada:
+-  60 minutos.
 
 ---
 
@@ -40,17 +43,18 @@ Este laboratorio se separa en las siguientes secciones:
 - **[Crear docker-compose]()**
 
 ### Crear imagenes docker [return](#instrucciones)
-> **IMPORTANTE**: Subir la configuración de tus microservicios a un repositorio cómo github o bitbucket. 
+> **IMPORTANTE**: Subir la configuración de tus microservicios a un repositorio cómo GitHub o Bitbucket. 
 
-1. Para cada microservicio se debe de generar su jar sólo se le debe de dar **Click derecho-> Run As->maven install** 
+1. Para cada microservicio se debe de generar su jar, sólo se le debe de dar **Click derecho-> Run As->maven install** 
 
-> **IMPORTANTE:** Para generar el jar de cada microservicio deben estar iniciados **MicroserviceConfig** y **MicroserviceEureka** 
+> **IMPORTANTE:** Para generar el jar de cada microservicio deben estar iniciados **MicroserviceConfig** y **MicroserviceEureka.** 
 
-2. Crear una estructura de carpetas en una carpeta llamada **deploy**, vamos a crear las siguientes carpetas. 
+2. Crear una estructura de carpetas en una carpeta llamada **deploy**.
+   Vamos a crear las siguientes carpetas. 
 
 ![carpetas](../images/6/1.png)
 
-3. En cada una de las carpetas debes añadir el **jar** generado de cada microservicio. Debería quedar de la siguiente forma
+3. En cada una de las carpetas debes añadir el **jar** generado de cada microservicio. Debería quedar de la siguiente forma:
 
 ![alt text](../images/6/2.png)
 
@@ -99,16 +103,16 @@ EXPOSE 8082
 ENTRYPOINT [ "java","-jar","order.jar" ]
 ```
 
-5. Guardar todo
+5. Guardar todo.
 
 
 
 ### Crear docker-compose [return](#instrucciones)
-1. En la raíz de la carpeta donde se encuentra las carpetas de los **jars** de los microservicios añadiremos un archivo que llamaremos **docker-compose.yaml**
+1. En la raíz de la carpeta donde se encuentran las carpetas de los **jars** correspondientes de los microservicios, añadiremos un archivo que llamaremos **docker-compose.yaml**.
 
 ![alt text](../images/6/3.png)
 
-2. En el archivo **docker-compose.yaml** añadir el siguiente contenido
+2. En el archivo **docker-compose.yaml** añadir el siguiente contenido:
 
 ```yaml
 services:
@@ -228,19 +232,19 @@ networks:
 
 ```
 
-3. Abrir una terminal en la ruta del archivo **docker-compose.yaml** y ejecutar el siguiente comando. 
+3. Abrir una terminal en la ruta del archivo **docker-compose.yaml** y ejecutar el siguiente comando: 
 
 ```bash
 docker-compose up -d
 ```
 
-4. Esperar a que nos muestra una salida similar a la siguiente: 
+4. Esperar a que nos muestre una salida similar a la siguiente: 
 
 ![deploy](../images/6/4.png)
 
 
-## Resultado Esperado [Instrucciones](#instrucciones)
-Se espera que el alumno pueda observar todos sus proyectos iniciados en contenedores de docker con un sólo comando:
+## Resultado esperado [Instrucciones](#instrucciones)
+Se espera que el alumno pueda observar todos sus proyectos iniciados en contenedores de Docker con un sólo comando:
 
 ![resultado](../images/6/5.png)
 
