@@ -8,6 +8,10 @@ Spring Cloud Gateway, Spring Config, Spring Security, Resilience4j
 - Implementar Spring Cloud Gateway.
 - Implementar Spring Security.
 
+## Duración aproximada:
+- 240 minutos.
+
+
 ---
 <div style="width: 400px;">
         <table width="50%">
@@ -584,6 +588,8 @@ curl --request POST \
 	"address":"su casa en xochimilco"
 }'
 ```
+
+## Resultado esperado
 
 5. Se espera que al final el alumno pueda tener acceso a su arquitectura de microservicios. 
 
