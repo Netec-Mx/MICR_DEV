@@ -1,7 +1,9 @@
 # Práctica 6. Despliegue de arquitectura completa
 Se requiere que el alumno despliegue en contenedores su sarquitectura de microservicios.  
 
-## Objetivos
+## Objetivos de la práctica
+Al terminar la siguiente práctica serás capaz de:
+
 - Crear las imagenes de sus microservicios.
 - Crear contenedores para validar el funcionamiento.
 - Crear un archivo de orquestación para iniciar toda su arquitectura.
