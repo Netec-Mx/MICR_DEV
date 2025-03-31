@@ -1,7 +1,9 @@
 # Práctica 3. Microservicio cliente
 Desarrollar un microservicio que permita la administración de clientes. 
 
-## Objetivos
+## Objetivos de la práctica
+Al terminar la siguiente práctica serás capaz de:
+
 - Desarrollar un microservicio usando Spring Boot.
 - Definir buenas prácticas al desarrollar el microservicio.
 - Probar el microservicio en Insomnia, Postman ó curl.
