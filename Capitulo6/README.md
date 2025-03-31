@@ -1,4 +1,4 @@
-# Práctica 6.Despliegue de arquitectura completa
+# Práctica 6. Despliegue de arquitectura completa
 Se requiere que el alumno despliegue en contenedores su sarquitectura de microservicios.  
 
 ## Objetivos
