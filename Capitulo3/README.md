@@ -412,3 +412,24 @@ Se espera que el alumno pruebe todas las operaciones del microservicios en insom
 ![resultado](../images/3/2.png)
 
 
+---
+
+<div style="width: 400px;">
+        <table width="50%">
+            <tr>
+                <td style="text-align: center;">
+                    <a href="../Capitulo2/"><img src="../images/anterior.png" width="40px"></a>
+                    <br>anterior
+                </td>
+                <td style="text-align: center;">
+                   <a href="https://netec-mx.github.io/MICR_DEV/">Lista Laboratorios</a>
+                </td>
+<td style="text-align: center;">
+                    <a href="../Capitulo4/"><img src="../images/siguiente.png" width="40px"></a>
+                    <br>siguiente
+                </td>
+            </tr>
+        </table>
+</div>
+
+---
