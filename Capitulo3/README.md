@@ -1,10 +1,10 @@
-# 3. Microservicio Cliente
+# Práctica 3. Microservicio cliente
 Desarrollar un microservicio que permita la administración de clientes. 
 
 ## Objetivos
-- Desarrollar un microservicio usando Spring Boot
-- Definir buenas prácticas al desarrollar el microservicio
-- Probar el microservicio en Insomnia, Postman ó curl
+- Desarrollar un microservicio usando Spring Boot.
+- Definir buenas prácticas al desarrollar el microservicio.
+- Probar el microservicio en Insomnia, Postman ó curl.
 
 
 ---
@@ -38,11 +38,12 @@ Desarrollar un microservicio que permita la administración de clientes.
 ## Instrucciones
 Este laboratorio esta separado en la siguientes secciones:
 
-- **[Desarrollar microservicio Cliente](#desarrollar-microservicio-cliente-return)**
+- **[Desarrollar microservicio cliente](#desarrollar-microservicio-cliente-return)**
 - **[Probar microservicio](#probar-microservicio-return)**
 
 ## Desarrollar microservicio cliente [return](#instrucciones)
 1. Crear un nuevo proyecto **Spring Boot App** con la siguiente configuración:
+   
 - group: com.netec
 - languaje: Java
 - type: maven
@@ -115,7 +116,7 @@ public class Client {
 }
 ```
 
-5. En el paquete dao añadir una interface llamada **IClientDAO** y añadir el siguiente código:
+5. En el paquete **dao** añadir una interface llamada **IClientDAO** y añadir el siguiente código:
 
 ```java
 package com.netec.app.dao;
@@ -129,7 +130,7 @@ public interface IClientDAO extends CrudRepository<Client, Long> {
 }
 ```
 
-6. En el paquete **exceptions** añadir la clase **ClientNotExistsException.java** ahora añadir el siguiente  código: 
+6. En el paquete **exceptions**, añadir la clase **ClientNotExistsException.java**. Después, añadir el siguiente código: 
 
 ```java
 package com.netec.app.exceptions;
@@ -143,7 +144,8 @@ public class ClientNotExistsException extends RuntimeException {
 }
 ```
 
-7. Ahora en el paquete services añadir una interface y una clase que llamaremos **IService.java** y **ServiceImpl** 
+7. Añadir una interface en el paquete services y una clase que llamaremos **IService.java** y **ServiceImpl**.
+    
 **IService.java**
 ```java
 package com.netec.app.services;
@@ -221,7 +223,7 @@ public class ServiceImpl implements IService{
 }
 ```
 
-8. Ahora en el paquete **controller** añadir una clase llamada **MicroController.java** y añadiremos el siguiente código.
+8. En el paquete **controller**, añadir una clase llamada **MicroController.java** y el siguiente código.
 
 ```java
 package com.netec.app.controller;
@@ -321,7 +323,7 @@ public class MicroserviceController {
 
 ```
 
-9. En el archivo **application.properties** añadiremos la siguiente configuración:
+9. Añadir la siguiente configuración en el archivo **application.properties**:
 
 ```properties
 spring.application.name=micro-client
@@ -337,12 +339,12 @@ spring.datasource.username=${USER_DB:root}
 spring.datasource.password=${PASSWORD_DB:1234}
 ```
 
-10. Ejecutar la aplicación **Click derecho en proyecto**->**RunAs**-> **SpringBootApp**
+10. Ejecutar la aplicación. **Hacer clic derecho en proyecto**->**RunAs**-> **SpringBootApp**
 
 
-## Probar microservicio [return](#instrucciones)
+## Probar el microservicio [return](#instrucciones)
 
-1. Abrir insomnia y probar las siguientes operaciones. 
+1. Abrir insomnia y probar las siguientes operaciones: 
 
 - **POST**:
 
