@@ -4,6 +4,8 @@ En este laboratorio se busca que el alumno pueda comparar entre los microservici
 
 
 ## Objetivos de la práctica
+Al terminar la siguiente práctica serás capaz de:
+
 - Investigar el uso de los microservicios en el mundo tecnológico.
 - Compararlo con los sistemas monolíticos.
 
