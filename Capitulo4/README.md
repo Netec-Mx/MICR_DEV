@@ -3,7 +3,9 @@
 Crear un microservicio **order** que nos permita administrar las ordenes de pago. Para la creación de este laboratorio es necesario el microservicio **Cliente** del **[capitulo 3](../Capitulo3/README.md)**
 
 
-## Objetivos
+## Objetivos de la práctica
+Al terminar la siguiente práctica serás capaz de:
+
 - Crear microservicio **order** que nos permita conectarnos a **cliente.**
 - Implementar **Feign Client** para extraer información de otro microservicio.
 - Usar el servicio de descubrimiento **eureka** para registrar las instancias de los microservicios. 
