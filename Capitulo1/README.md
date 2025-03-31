@@ -1,11 +1,11 @@
-# 1. Comparación Microservicios vs Monólitico
+# Práctica 1. Comparación microservicios vs. monolítico
 
-En este laboratorio se busca que el alumno puede comparar entre los Microservicios y sistemas monoliticos. 
+En este laboratorio se busca que el alumno pueda comparar entre los microservicios y sistemas monolíticos. 
 
 
 ## Objetivos
-- Investigar el uso de los microservicios en el mundo tecnológico
-- Compararlo con los sistemas monolíticos
+- Investigar el uso de los microservicios en el mundo tecnológico.
+- Compararlo con los sistemas monolíticos.
 
 
 
@@ -35,7 +35,7 @@ navegación-->
 
 ## Diagrama 
 
-Se espera que el alumno realice una investigación usando Google Trends 
+Se espera que el alumno realice una investigación usando Google Trends. 
 
 ![diagrama](../images/1/diagrama.png)
 
@@ -45,7 +45,7 @@ Se espera que el alumno realice una investigación usando Google Trends
 
 1. Abrir un explorador web **Google Chrome**, **Safari**, **Edge**, o el de su preferencia.
 
-2. Abrir el siguiente url: https://trends.google.com/trends/
+2. Abrir el siguiente URL: https://trends.google.com/trends/
 
  ![google trends](../images/1/1.png)
 
@@ -57,24 +57,24 @@ Se espera que el alumno realice una investigación usando Google Trends
 4.  Por defecto mostrará las tendencias del día anterior y de la región actual. 
 
 
-5. Modificar la región a **todo el mundo** y **Últimos 12 meses**
+5. Modificar la región a **todo el mundo** y **Últimos 12 meses.**
 
 ![tendencias](../images/1/3.png)
 
 
-6. Analizar los resultados y observar en que paises se usan los microservicios
+6. Analizar los resultados y observar en que paises se usan los microservicios.
 
 ![paises](../images/1/4.png)
 
 
-7. Comparar con monolítico 
+7. Comparar con un monolítico. 
 
 ![monolito](../images/1/5.png)
 
 
 > **Nota**: *A pesar que podemos observar diferencias a nivel tendencias, **recuerda que cada herramienta se usa en escenarios diferentes***
 
-8. En la comparativa agrega otras arquitecturas 
+8. Agregar en la comparativa otras arquitecturas. 
 
 
 # Resultado esperado
