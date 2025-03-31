@@ -2,7 +2,9 @@
 Se requiere que el alumno implemente todos los servicios vistos en el tema 5. 
 Spring Cloud Gateway, Spring Config, Spring Security, Resilience4j
 
-## Objetivos
+## Objetivos de la práctica
+Al terminar la siguiente práctica serás capaz de:
+
 - Implementar Resilience4j.
 - Implementar Spring config.
 - Implementar Spring Cloud Gateway.
