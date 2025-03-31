@@ -24,7 +24,7 @@ navegación-->
                     <br>anterior
                 </td>
                 <td style="text-align: center;">
-                   </https://netec-mx.github.io/MICR_DEV/">Lista Laboratorios</a>
+                   </(https://netec-mx.github.io/MICR_DEV/)">Lista Laboratorios</a>
                 </td>
 <td style="text-align: center;">
                     <a href="../Capitulo2/"><img src="../images/siguiente.png" width="40px"></a>
