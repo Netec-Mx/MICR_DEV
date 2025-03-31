@@ -1,13 +1,13 @@
-# 4. Comunicación entre microservicios y balanceo de cargas OpenFeing y Eureka
+# Práctica 4. Comunicación entre microservicios y balanceo de cargas OpenFeing y Eureka
 
 Crear un microservicio **order** que nos permita administrar las ordenes de pago. Para la creación de este laboratorio es necesario el microservicio **Cliente** del **[capitulo 3](../Capitulo3/README.md)**
 
 
 ## Objetivos
-- Crear microservicio **order** que nos permita conectarnos a **cliente**
-- Implementar **Feign Client** para extraer información de otro microservicio
+- Crear microservicio **order** que nos permita conectarnos a **cliente.**
+- Implementar **Feign Client** para extraer información de otro microservicio.
 - Usar el servicio de descubrimiento **eureka** para registrar las instancias de los microservicios. 
-- Probar los microservicios
+- Probar los microservicios.
 
 ---
 
@@ -35,7 +35,7 @@ Crear un microservicio **order** que nos permita administrar las ordenes de pago
 
 ![diagrama](../images/4/diagrama.png)
 
->**IMPORTANTE**: Para este laboratorio necesitamos el microservicio del **Capitulo 3** en el caso de no tenerlo regresar al laboratorio anterior. 
+>**IMPORTANTE**: Para este laboratorio necesitamos el microservicio del **Capitulo 3**, en caso de no tenerlo, regresar al laboratorio anterior. 
 
 ## Instrucciones
 Este laboratorio esta separado en las siguientes secciones.
@@ -45,9 +45,9 @@ Este laboratorio esta separado en las siguientes secciones.
 - **[Implementar eureka con client y order]()**
 
 ### Implementar order con openfeign [instrucciones](#instrucciones)
-1. Crear un nuevo proyecto de Spring **File->New->Spring Starter Project**
+1. Crear un nuevo proyecto de Spring **File->New->Spring Starter Project.**
 
-2. Añadir la siguiente configuración
+2. Añadir la siguiente configuración:
 
 - group: com.netec
 - languaje: Java
@@ -65,7 +65,7 @@ Este laboratorio esta separado en las siguientes secciones.
 - MySQLDriver
 - OpenFeign
 
-4. En el archivo **applicaction.properties** añadir la siguiente configuración:
+4. Añadir la siguiente configuración en el archivo **applicaction.properties**:
 
 ```properties
 spring.application.name=micro-order
@@ -85,7 +85,7 @@ spring.datasource.password=${PASS_DB:1234}
 
 ![paquetes](../images/4/1.png)
 
-6. En la clase principal del proyecto añadir la siguiente anotación: 
+6. En la clase principal del proyecto colocar la siguiente anotación: 
 
 ```java
 @EnableFeignClients
@@ -212,7 +212,7 @@ public class Order {
 }
 ```
 
-9. En el paquete **dao** añadir una interface que llamaremos **IOrderDAO**
+9. En el paquete **dao** añadir una interface que llamaremos **IOrderDAO**.
 
 ```java
 package com.netec.app.dao;
@@ -226,7 +226,7 @@ public interface IOrderDAO extends CrudRepository<Order, Long>{
 }
 ```
 
-10. En el paquete **feign** añadiremos una interface que llamaremos **IClientFeign**
+10. En el paquete **feign** añadiremos una interface que llamaremos **IClientFeign**.
 
 ```java
 package com.netec.app.feign;
@@ -437,11 +437,11 @@ public class MicroController {
 }
 ```
 
-14. Iniciar el microservicio **Order** 
+14. Iniciar el microservicio **Order**. 
 > **IMPORTANTE:** Para probar el microservicio order se debe tener iniciado el microservicio client. 
 
 
-15. Probar los siguientes métodos de HTTP en Insmonia, Postman ó curl
+15. Probar los siguientes métodos de HTTP en Insmonia, Postman ó curl.
 
 - **POST**
 ```bash
@@ -466,12 +466,9 @@ curl --request DELETE \
 ```
 
 
+### Implementar eureka con client y order [instrucciones](#instrucciones).
 
-
-
-### Implementar eureka con client y order [instrucciones](#instrucciones)
-
-1. Crear un nuevo proyecto de Spring Boot **File->New->Spring Starter Project**
+1. Crear un nuevo proyecto de Spring Boot **File->New->Spring Starter Project**.
 
 2. Añadir la siguiente información:
 
@@ -527,7 +524,7 @@ public class MicroserviceEurekaApplication {
 }
 ```
 
-7. Configuración de **MicroserviceClient**
+7. Configuración de **MicroserviceClient.**
 
     1. En el archivo **pom.xml** añadir la siguiente dependencia:
 
@@ -543,11 +540,11 @@ public class MicroserviceEurekaApplication {
         eureka.client.service-url.defaultZone=http://localhost:9999/eureka
         ```
     
-    3. Reiniciar el microservicio
+    3. Reiniciar el microservicio.
 
-8. Configuración de **MicroserviceOrder**
+8. Configuración de **MicroserviceOrder.**
 
-    1. En el archivo **pom.xml** añadir la siguiente dependencia
+    1. En el archivo **pom.xml** añadir la siguiente dependencia:
         ```xml
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -559,7 +556,7 @@ public class MicroserviceEurekaApplication {
         #eureka discovery
         eureka.client.service-url.defaultZone=http://localhost:9999/eureka
         ```
-    3. Modificar **IClientFeign** quedaría de la siguiente forma:
+    3. Al modificar **IClientFeign** quedaría de la siguiente forma:
         ```java
         package com.netec.app.feign;
 
@@ -579,9 +576,6 @@ public class MicroserviceEurekaApplication {
 
         ```
     4. Reiniciar el microservicio
-
-
-
 
 
 
