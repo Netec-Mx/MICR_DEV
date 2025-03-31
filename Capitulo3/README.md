@@ -404,7 +404,7 @@ curl --request GET \
   --header 'User-Agent: insomnia/10.3.1'
 ```
 
-## Resultado esperado [Instrucciones](#instrucciones)
+## Resultado esperado 
 
 
 Se espera que el alumno pruebe todas las operaciones del microservicios en insomnia, al finalizar debería de tener una carpeta con todas las operaciones. 
