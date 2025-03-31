@@ -24,7 +24,7 @@ Al terminar la siguiente práctica serás capaz de:
                     <br>anterior
                 </td>
                 <td style="text-align: center;">
-                   <a href="../README.md">Lista Laboratorios</a><a href="https://netec-mx.github.io/MICR_DEV/">Lista Laboratorios</a>
+                   <a href="https://netec-mx.github.io/MICR_DEV/">Lista Laboratorios</a>
                 </td>
 <td style="text-align: center;">
                     <a href="../Capitulo5/"><img src="../images/siguiente.png" width="40px"></a>
@@ -591,4 +591,24 @@ Cuando finalize el laboratorio se espera que el alumno pueda observar sus micros
 ![resultado](../images/4/2.png)
 
 
+---
 
+<div style="width: 400px;">
+        <table width="50%">
+            <tr>
+                <td style="text-align: center;">
+                    <a href="../Capitulo3/"><img src="../images/anterior.png" width="40px"></a>
+                    <br>anterior
+                </td>
+                <td style="text-align: center;">
+                   <a href="https://netec-mx.github.io/MICR_DEV/">Lista Laboratorios</a>
+                </td>
+<td style="text-align: center;">
+                    <a href="../Capitulo5/"><img src="../images/siguiente.png" width="40px"></a>
+                    <br>siguiente
+                </td>
+            </tr>
+        </table>
+</div>
+
+---
