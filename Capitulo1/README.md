@@ -7,7 +7,8 @@ En este laboratorio se busca que el alumno pueda comparar entre los microservici
 - Investigar el uso de los microservicios en el mundo tecnológico.
 - Compararlo con los sistemas monolíticos.
 
-
+## Duración aproximada:
+- 30 minutos.
 
 ---
 <!--Este fragmento es la barra de 
